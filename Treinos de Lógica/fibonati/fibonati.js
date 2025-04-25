@@ -1,4 +1,5 @@
 var gerar = function () {
+    document.getElementById('fibonati').innerHTML = ''
     var num = Number(document.getElementById('numFibo').value)
     if (num <= 1) {
         document.getElementById('numFibo').innerHTML = '0'
